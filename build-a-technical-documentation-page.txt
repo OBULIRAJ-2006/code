@@ -1,0 +1,178 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  <nav id="navbar">
+    <header>JavaScript Docs</header>
+    <a href="#Introduction_to_JavaScript" class="nav-link">Introduction to JavaScript</a>
+    <a href="#Variables_and_Data_Types" class="nav-link">Variables and Data Types</a>
+    <a href="#Functions_in_JavaScript" class="nav-link">Functions in JavaScript</a>
+    <a href="#Loops_and_Iteration" class="nav-link">Loops and Iteration</a>
+    <a href="#ES6_Features" class="nav-link">ES6 Features</a>
+  </nav>
+
+  <!-- Main Documentation -->
+  <main id="main-doc">
+    <!-- Section 1 -->
+    <section class="main-section" id="Introduction_to_JavaScript">
+      <header>Introduction to JavaScript</header>
+      <p>JavaScript is a versatile programming language primarily used for web development. It allows developers to add interactivity to web pages.</p>
+      <p>It is a client-side scripting language but can also be used on the server side with Node.js.</p>
+      <p>JavaScript is essential for building dynamic, responsive web applications.</p>
+      <code>console.log("Hello, World!");</code>
+      <ul>
+        <li>First appeared: 1995</li>
+        <li>Developed by: Brendan Eich</li>
+        <li>Standardized by: ECMA International</li>
+      </ul>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="main-section" id="Variables_and_Data_Types">
+      <header>Variables and Data Types</header>
+      <p>JavaScript supports multiple data types, including numbers, strings, and objects.</p>
+      <p>Variables in JavaScript can be declared using <code>var</code>, <code>let</code>, or <code>const</code>.</p>
+      <p>Data types in JavaScript are broadly categorized as primitive and non-primitive.</p>
+      <code>let age = 25;</code>
+      <ul>
+        <li>Primitive types: string, number, boolean, null, undefined, symbol</li>
+        <li>Non-primitive types: object, array, function</li>
+      </ul>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="main-section" id="Functions_in_JavaScript">
+      <header>Functions in JavaScript</header>
+      <p>Functions are reusable blocks of code designed to perform a specific task.</p>
+      <p>Functions can be declared or expressed as anonymous or arrow functions.</p>
+      <p>JavaScript supports first-class functions, allowing them to be treated as variables.</p>
+      <code>function greet(name) { return Hello, ${name}; }</code>
+      <ul>
+        <li>Function declaration</li>
+        <li>Anonymous function</li>
+        <li>Arrow function</li>
+      </ul>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="main-section" id="Loops_and_Iteration">
+      <header>Loops and Iteration</header>
+      <p>Loops are used to execute a block of code repeatedly based on a condition.</p>
+      <p>JavaScript provides several looping constructs: <code>for</code>, <code>while</code>, <code>do-while</code>, and more.</p>
+      <p>Iterators like <code>for...of</code> and <code>for...in</code> allow traversal over objects and arrays.</p>
+      <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+      <ul>
+        <li>For loop</li>
+        <li>While loop</li>
+        <li>Do-while loop</li>
+      </ul>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="main-section" id="ES6_Features">
+      <header>ES6 Features</header>
+      <p>ECMAScript 6 (ES6) introduced many new features to JavaScript, making it more powerful and efficient.</p>
+      <p>Key features include arrow functions, template literals, classes, and modules.</p>
+      <p>ES6 also added <code>let</code> and <code>const</code> for variable declarations.</p>
+      <code>const add = (a, b) => a + b;</code>
+      <ul>
+        <li>Arrow functions</li>
+        <li>Template literals</li>
+        <li>Classes and inheritance</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background: #282c34;
+  color: #fff;
+  overflow-y: auto;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #61dafb;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #21a1f1;
+}
+
+/* Main Content */
+#main-doc {
+  margin-left: 320px;
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+header {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Code Block Styling */
+code {
+  background: #e8e8e8;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+** end of undefined **
+

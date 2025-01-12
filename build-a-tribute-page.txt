@@ -1,0 +1,116 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+    <!-- Title -->
+    <h1 id="title">Marie Curie: A Pioneer in Science</h1>
+    
+    <!-- Image Section -->
+    <figure id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/6/69/Marie_Curie_c1920.jpg" alt="Marie Curie portrait" />
+      <figcaption id="img-caption">
+        Marie Curie, the first woman to win a Nobel Prize and the only person to win Nobel Prizes in two different sciences.
+      </figcaption>
+    </figure>
+    
+    <!-- Tribute Info -->
+    <section id="tribute-info">
+      Marie Curie was a physicist and chemist who conducted pioneering research on radioactivity. She was born on November 7, 1867, in Warsaw, Poland. Her groundbreaking work laid the foundation for many scientific advancements, including cancer treatment using radiation.
+      <br><br>
+      Curie’s remarkable achievements include the discovery of two elements, polonium and radium, and the establishment of the theory of radioactivity. Her relentless pursuit of knowledge and dedication to science broke barriers and inspired generations of scientists worldwide.
+    </section>
+    
+    <!-- Link -->
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Marie_Curie" target="_blank">
+      Learn more about Marie Curie's life and achievements
+    </a>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Main Container */
+#main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Image Section */
+#img-div {
+  margin: 20px 0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Tribute Info */
+#tribute-info {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+/* Link */
+#tribute-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #007BFF;
+  padding: 10px 20px;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+** end of undefined **
+
